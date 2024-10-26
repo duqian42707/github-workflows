@@ -21,7 +21,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: public
         uses: duqian42707/actions/huaweicloud-swr-public@main
-        with:
+        env:
           HUAWEI_CLOUD_SDK_AK: ${{ secrets.HUAWEI_CLOUD_SDK_AK }}
           HUAWEI_CLOUD_SDK_SK: ${{ secrets.HUAWEI_CLOUD_SDK_SK }}
           HUAWEI_CLOUD_SWR_REGION: cn-north-4
