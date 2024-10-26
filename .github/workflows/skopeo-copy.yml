@@ -26,4 +26,4 @@ jobs:
           HUAWEI_CLOUD_SDK_SK: ${{ secrets.HUAWEI_CLOUD_SDK_SK }}
           HUAWEI_CLOUD_SWR_REGION: cn-north-4
           HUAWEI_CLOUD_SWR_NAMESPACE: dqv5
-          HUAWEI_CLOUD_SWR_REPOSITORYS: ${{ steps.transfer.outputs.REPOSITORY_NAMES }}
+          HUAWEI_CLOUD_SWR_REPOS: ${{ steps.transfer.outputs.REPOSITORY_NAMES }}
